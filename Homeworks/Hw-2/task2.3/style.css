@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.months{
+    background: rgba(80, 103, 80, 0.93);
+    padding: 100px 100px 300px 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.months-descr{
+    height: 200px;
+    width: 250px;
+    border-radius: 4px;
+    padding: 15px;
+    background: rgb(238, 248, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 1s;
+}
+.months-descr p{
+    padding: 0;
+    font-size: 16px;
+}
+.months-descr:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
