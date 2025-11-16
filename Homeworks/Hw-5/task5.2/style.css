@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    font-family: Bowlby One, sans-serif;
+    background-color: #1E1E1E;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 36px 50px 36px 50px;
+}
+
+.wrapper {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.header-img {
+    margin: 0 auto 33px;
+    display: block;
+
+}
+
+.nav {
+    margin-bottom: 74px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul li .nav__active_link {
+    background: #B3A0CD;
+    color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    height: 60px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav a {
+    font-family: Bowlby One, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.header-title {
+    font-size: 107px;
+    font-weight: 400;
+    line-height: 89%;
+    letter-spacing: -2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E9E3DC;
+    width: 1255px;
+    margin: 0 auto 33px;
+
+}
+
+/*--------------------------------------section about------------*/
+
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #D1EF53;
+    padding: 98px 149px 85px 109px;
+    border-radius: 30px;
+    margin-bottom: 64px;
+}
+
+.about__title {
+    width: 533px;
+    height: 186px;
+    font-family: Bowlby One, sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 89%;
+    text-transform: uppercase;
+    margin-right: 28px;
+}
+
+.about__descr {
+    width: 521px;
+}
+
+.about__text {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 34px;
+}
+
+.about__link {
+    padding: 21px 35px;
+    font-family: Bowlby One, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 97%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    width: 176px;
+    height: 60px;
+    display: inline-block;
+    background: #E9E3DC;
+}
+
+.about button {
+    border: 4px solid #1E1E1E;
+    box-shadow: 8px 8px 0 0 #000000;
+
+}
+
+/*----------section menu items*/
+.menu__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+/*---------fullWidthImg----------*/
+.fullWidthImg {
+    margin-bottom: 64px;
+}
+
+/*----footer---*/
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 102%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 895px;
+    color: #E9E3DC;
+    margin-bottom: 33px;
+}
+
+footer button {
+    font-family: Bowlby One, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 97%;
+    text-align: center;
+    text-transform: uppercase;
+    background: #D1EF53;
+    padding: 21px 31px 22px 31px;
+border: none;
+    cursor: pointer;
+}
