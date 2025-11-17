@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.form-enter{
+    width: 1400px;
+    height: 100%;
+    padding: 50px;
+    border: 5px solid coral;
+}
+.form-enter>div:first-of-type{
+    margin-bottom: 40px;
+}
+.logo{
+    margin-bottom: 80px;
+    height: 320px;
+}
+.form-enter>div{
+    border: 5px solid rgba(214, 212, 212, 0.47);
+    padding: 80px 150px;
+}
+form input{
+    height: 135px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 5px solid rgba(214, 212, 212, 0.47);
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    padding: 20px;
+}
+form input::placeholder{
+    font-size: 45px;
+    text-align: start;
+}
+form input[type="submit"]{
+    margin: 35px 0;
+    height: 120px;
+    background-color: #79B4F4;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+form>p:first-of-type{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 600;
+    color: #737373;
+    margin: 30px 0 100px;
+}
+form .facebook{
+    font-size: 50px;
+    font-weight: 700;
+    color: #3C5181;
+    padding-left: 40px;
+    vertical-align: middle;
+    margin-bottom: 90px;
+}
+form .facebook::before{
+    background-image: url('images/img_1.png');
+    background-size: cover;
+    height: 58px;
+    width: 58px;
+    content: "";
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: middle;
+    margin-top: -6px;
+}
+form .remember{
+    font-size: 45px;
+    color: #204270;
+    font-weight: 600;
+}
+.form-enter .registration {
+    padding: 110px 0;
+    font-size: 55px;
+    font-weight: 500;
+}
+.registration p a{
+    margin-left: 20px;
+    color: #3E95EF;
+}
+
